@@ -1,0 +1,84 @@
+body{
+    background: rgb(255, 31, 240);
+    background: linear-gradient(170deg, rgb(234, 53, 183) 2%, rgb(105, 129, 225) 2%, rgb(94, 62, 223) 34%, rgb(228, 92, 228) 71%, rgb(64, 47, 172) 100%);  
+   background-repeat: no-repeat;
+   background-size: 100% 150%;
+   }
+   p{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+   .button1{
+    background: linear-gradient(153deg, rgb(219, 70, 232) 0%, rgb(2, 10, 251) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .button1 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .button1:before,
+    .button1:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgb(255, 254, 253);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .button1:before{
+       height: 0%;
+       width: 2px;
+    }
+    .button1:after {
+      width: 0%;
+      height: 2px;
+    }
+    .button1:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .button1:hover:before {
+      height: 100%;
+    }
+    .button1:hover:after {
+      width: 100%;
+    }
+    .button1 span:before,
+    .button1 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .button1 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .button1 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .button1 span:hover:before {
+      height: 100%;
+    }
+    .button1 span:hover:after {
+      width: 100%;
+    }

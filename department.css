@@ -1,0 +1,35 @@
+h1 {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+    
+  }
+  body{
+    background: rgb(255,255,255);
+    background: linear-gradient(170deg, rgb(53, 89, 234) 2%, rgb(105, 129, 225) 2%, rgb(183, 62, 223) 34%, rgb(228, 92, 228) 71%, rgb(64, 47, 172) 100%);   font-family: Arial;
+    background-repeat: no-repeat;
+   background-size: 100% 150%;
+  }
+  p{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .btn-2 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgb(9, 178, 240) 0%, rgb(228, 5, 240) 100%);
+    border: none;
+    
+  }
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(18, 41, 144, 0.5),
+                -4px -4px 6px 0 rgba(10, 202, 179, 0.5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
